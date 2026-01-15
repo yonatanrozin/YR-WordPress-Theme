@@ -1,0 +1,8 @@
+.wp-block-yr-event-list  {
+    display: flex;
+    flex-direction: column;
+
+    .wp-block-post-terms  {
+        pointer-events: none;
+    }
+}

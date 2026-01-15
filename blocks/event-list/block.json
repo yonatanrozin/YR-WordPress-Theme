@@ -1,0 +1,18 @@
+{
+	"apiVersion": 2,
+	"name": "yr/event-list",
+	"title": "Event List",
+	"description": "An event list for the events page.",
+	"style": "file:./style.css",
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"blockGap": true
+		}
+	},
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	}
+}

@@ -1,0 +1,23 @@
+.wp-block-yr-nav-breadcrumbs {
+    #nav-menu-full {
+        display: none;
+    }
+
+    ul#breadcrumbs {
+        all: unset;
+        display: flex;
+
+        > li {
+            list-style-type: none;
+            text-decoration: none;
+        }
+        > li:not(:nth-of-type(1))::before {
+            content: ">";
+            margin: .3rem;
+            font-weight: bold;
+        }
+        > li.current_page_item, > li.current-menu-item {
+            font-weight: bold;
+        }
+    }
+}
