@@ -3,8 +3,8 @@
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
-			"contentSize": "640",
-			"wideSize": "1080px"
+			"contentSize": "840px",
+			"wideSize": "1280px"
 		},
 		"spacing": {
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ],
@@ -60,11 +60,13 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "Header"
+			"name": "header",
+			"title": "Header"
 		},
 		{
 			"area": "footer",
-			"name": "Footer"
+			"name": "footer",
+			"title": "Footer"
 		}
 	],
 	"version": 3
