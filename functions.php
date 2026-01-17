@@ -724,14 +724,6 @@ add_action( 'init', function() {
 } );
 
 
-
-add_action( 'init', function() {
-
-    register_nav_menus(array(
-        'main-site-navigation' => __( 'Main Site Navigation' ),
-    ));
-} );
-
 // register ACF blocks
 add_action('acf/init', function() {
     register_block_type(__DIR__. '/blocks/acf-dates');
@@ -739,8 +731,6 @@ add_action('acf/init', function() {
     register_block_type(__DIR__. '/blocks/event-calendar');
     register_block_type(__DIR__. '/blocks/event-list');
     register_block_type(__DIR__. '/blocks/featured-items-carousel');
-    register_block_type(__DIR__. '/blocks/nav-breadcrumbs');
-
 });
 
 
